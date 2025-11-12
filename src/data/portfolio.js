@@ -6,14 +6,14 @@ export const personalInfo = {
   phone: '+62 822-6700-9574',
   location: 'Medan, Indonesia',
   cvUrl: '/cv/CV-Irfan-Web-Developer.pdf',
-  avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Irfan',
+  avatar: '/images/avatar.jpg',
   social: {
     github: 'https://github.com/irfantriadiginting',
     linkedin: 'https://linkedin.com/in/irfantriadiginting13',
     instagram: 'https://instagram.com/irfantriadiginting',
   },
   about: {
-    image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=IrfanAbout',
+    image: '/images/about.jpg',
     paragraphs: [
       "Hello! I'm Irfan Triadi Ginting, a passionate Web Developer based in Medan, Indonesia. I specialize in creating beautiful, responsive, and user-friendly websites.",
       'With expertise in modern web technologies and frameworks, I transform ideas into reality through clean code and creative solutions. I love building seamless user experiences that work perfectly across all devices.',

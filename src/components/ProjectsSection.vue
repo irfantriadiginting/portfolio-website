@@ -120,7 +120,7 @@ const openLink = (url) => {
       >
         <p class="text-gray-400 mb-4">Want to see more projects?</p>
         <button
-          @click="openLink('https://github.com/irfantriadi')"
+          @click="openLink('https://github.com/irfantriadiginting')"
           class="inline-flex items-center gap-2 bg-gray-800 border border-gray-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-700 hover:border-blue-500 transition-all"
         >
           <svg

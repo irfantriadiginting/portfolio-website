@@ -15,9 +15,30 @@ const scrollToSection = (sectionId) => {
 <template>
   <section
     id="hero"
-    class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-16"
+    class="min-h-screen flex items-center justify-center relative overflow-hidden pt-16"
   >
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <!-- Animated Background -->
+    <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-blue-900/20 to-purple-900/20">
+      <!-- Animated Circles -->
+      <div
+        class="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"
+      ></div>
+      <div
+        class="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse"
+        style="animation-delay: 1s"
+      ></div>
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-600/5 rounded-full blur-3xl animate-pulse"
+        style="animation-delay: 2s"
+      ></div>
+
+      <!-- Grid Pattern -->
+      <div
+        class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f0a_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f0a_1px,transparent_1px)] bg-[size:4rem_4rem]"
+      ></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
       <div class="text-center">
         <!-- Avatar -->
         <div class="flex justify-center mb-8 animate-fade-in">
@@ -26,7 +47,7 @@ const scrollToSection = (sectionId) => {
               :src="personalInfo.avatar"
               :alt="personalInfo.name"
               class="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-blue-500 shadow-xl shadow-blue-500/50"
-            >
+            />
             <div class="absolute inset-0 rounded-full bg-blue-500/20 animate-pulse"></div>
           </div>
         </div>
@@ -73,7 +94,12 @@ const scrollToSection = (sectionId) => {
             stroke="currentColor"
             viewBox="0 0 24 24"
           >
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 14l-7 7m0 0l-7-7m7 7V3"
+            />
           </svg>
         </div>
       </div>
