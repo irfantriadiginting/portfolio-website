@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>✨ Irfan Tri Adi Ginting's Portfolio ✨</h1>
+  <h1>✨ Irfan Triadi Ginting's Portfolio ✨</h1>
   <p>Welcome to my personal portfolio repository! This project serves as a comprehensive showcase of my skills, experiences, and the projects I've built.</p>
 </div>
 
