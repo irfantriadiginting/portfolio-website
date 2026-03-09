@@ -120,7 +120,7 @@ const projects = [
     description: 'This portfolio! A modern dark-themed website with smooth animations, typewriter effect, infinite marquee, and custom cursor.',
     techs: ['Vue.js 3', 'Vite', 'Tailwind CSS v3'],
     github: 'https://github.com/irfantriadiginting',
-    live: '#',
+    live: 'https://portfolio-website-irfan.vercel.app/',
   },
 ]
 </script>
