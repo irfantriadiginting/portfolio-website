@@ -6,7 +6,7 @@
         <span class="text-accent-purple">&lt;</span>
         <span class="text-text-primary">Irfan</span>
         <span class="text-accent-cyan">/</span>
-        <span class="text-text-primary">Triadi</span>
+        <span class="text-text-primary">Ginting</span>
         <span class="text-accent-purple">&gt;</span>
       </div>
 
